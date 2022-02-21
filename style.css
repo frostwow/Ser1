@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap%27');
+*,*{
+    margin: 0;
+}
+body{
+    width: 1280px ;
+    margin: 0% auto;
+    /* внешний отступ */
+}
+ul{
+    list-style: none;
+    /* точки */
+    display: flex ;
+    justify-content: space-between ;
+    width: 620px;
+    margin: 25px 0 0 330px;
+}
+
+a{
+    text-decoration: none;
+    /*подчерк*/
+}
+.link-menu {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+     letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #FF0000;
+} 
+img {
+    margin-top: 25px;
+}
+h1 {
+font-family: "Montserrat";
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 3.3px;
+text-transform: uppercase;
+color: #373737;
+margin: 48px 0 0 257px ;
+}
+.text {
+    margin: 30px 67px 0 67px ;
+    font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 2.4px;
+color: #373737;
+}
+.button {
+    display: block;
+width: 191px;
+height: 51px;
+background: #FF0000;
+border-radius: 4px; 
+font-family: "Montserrat";
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 159px 0 0 545px;
+}
+.button p {
+    padding: 18px 0 0 43px;
+}
